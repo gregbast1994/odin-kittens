@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+hillman:
+  name: Hillman
+  age: 8
+  cuteness: 3
+  softness: 2
+
+kreature:
+  name: Kreature
+  age: 2
+  cuteness: 6
+  softness: 8
