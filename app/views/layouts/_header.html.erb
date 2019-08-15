@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-secondary mb-4">
     <div class="container">
-        <a class="navbar-brand" href="#">KITTENS API</a>
+        <%= link_to 'KITTENS API', root_url, class: 'navbar-brand' %>
         <div id="header-nav" class="navbar-nav d-flex flex-row">
             <%= link_to "SEE ALL KITTIES", root_url, class: 'nav-link' %>
             <%= link_to "CREATE", new_kitten_path, class: 'nav-link' %>
