@@ -7,5 +7,16 @@ The kittens are fake.
 
 https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis#project-1-building-a-simple-kittens-api
 
+Do the basics
+- Bootstrap
+- Title helper
+- nav
 
+Model kittens
+- rails g model Kitten
+- setup routes
+- index
+- new/create
+- edit/update
+- delete
 
