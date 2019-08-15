@@ -1,0 +1,22 @@
+<% provide(:title, @kitten.name) %>
+
+<div class="text-center mx-auto">
+    <h1>
+        <%= @kitten.name %>
+        <%= fa_icon 'user' %>
+    </h1>
+    <table class="table w-50 mx-auto">
+        <tr>
+            <th>Age:</th>
+            <td><%= @kitten.age %></td>
+        </tr>
+        <tr>
+            <th>Cuteness:</th>
+            <td><%= @kitten.cuteness %></td>
+        </tr>
+        <tr>
+            <th>Softness:</th>
+            <td><%= @kitten.softness %></td>
+        </tr>
+    </table>
+</div>
