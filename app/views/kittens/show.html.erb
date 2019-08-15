@@ -1,6 +1,6 @@
 <% provide(:title, @kitten.name) %>
 
-<div class="text-center mx-auto">
+<div id="kitten-<%= @kitten.id %>" class="text-center mx-auto">
     <h1>
         <%= @kitten.name %>
         <%= fa_icon 'user' %>
@@ -19,4 +19,10 @@
             <td><%= @kitten.softness %></td>
         </tr>
     </table>
+    <div class="actions">
+        <%= link_to 'Edit', edit_kitten_path(@kitten), class: 'btn btn-secondary' %>
+        <%= link_to 'Delete', kitten_path(@kitten), class: 'btn btn-danger delete',
+                                                    method: :delete,
+                                                    data: { confirm: "Are you sure?" } %>
+    </div>
 </div>
