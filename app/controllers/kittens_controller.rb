@@ -1,6 +1,6 @@
 class KittensController < ApplicationController
     def index
-        @kittens = Kitten.all
+        @kittens = Kitten.paginate(page: params[:page])
     end
 
     def show

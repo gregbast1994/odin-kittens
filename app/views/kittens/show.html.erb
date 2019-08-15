@@ -19,10 +19,5 @@
             <td><%= @kitten.softness %></td>
         </tr>
     </table>
-    <div class="actions">
-        <%= link_to 'Edit', edit_kitten_path(@kitten), class: 'btn btn-secondary' %>
-        <%= link_to 'Delete', kitten_path(@kitten), class: 'btn btn-danger delete',
-                                                    method: :delete,
-                                                    data: { confirm: "Are you sure?" } %>
-    </div>
+    <%= render 'actions', kitten: @kitten %>
 </div>

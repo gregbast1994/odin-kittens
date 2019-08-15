@@ -20,3 +20,5 @@ Model kittens
 - edit/update
 - delete
 
+- will_paginate not working
+

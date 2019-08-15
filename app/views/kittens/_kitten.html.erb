@@ -1,1 +1,4 @@
-<%= link_to kitten.name, kitten %>
+<li class="kitten list-group-item">
+    <%= link_to kitten.name, kitten %>
+    <%= render 'actions', kitten: kitten %>
+</li>
